@@ -7,8 +7,8 @@ public class Triangle {
         int c = 0;
 		c = Integer.parseInt(args[2]);//changing c to integer
 		if(a+b>c && a+c>b && b+c>a)
-			System.out.println(a+ ", "+b+", "+c+" : true");
+			System.out.println(a+ ", "+b+", "+c+": true");
 		else
-			System.out.println(a+ ", "+b+", "+c+" : false");
+			System.out.println(a+ ", "+b+", "+c+": false");
     }
 }
