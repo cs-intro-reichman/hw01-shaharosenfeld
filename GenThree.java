@@ -12,14 +12,14 @@ public class GenThree {
 			System.out.println(thirdR);
 		if(firstR < secR && firstR < thirdR)
 			{
-				System.out.println("The minimal number is: "+ firstR);
+				System.out.println("The minimal generated number was "+ firstR);
 			}	
 			else if(secR < firstR && secR < thirdR)
 			{
-				System.out.println("The minimal number is: "+ secR);
+				System.out.println("The minimal generated number was "+ secR);
 			}
 			else{
-				System.out.println("The minimal number is: "+ thirdR);
+				System.out.println("The minimal generated number was "+ thirdR);
 			}
     }
 }
