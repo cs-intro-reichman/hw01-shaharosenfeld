@@ -6,7 +6,7 @@ public class Triangle {
 		b = Integer.parseInt(args[1]);//changing b to integer
         int c = 0;
 		c = Integer.parseInt(args[2]);//changing c to integer
-		if(a+b>c && a+c>b && b+c>a)
+		if(a+b>c && a+c>b && b+c>a)//checking if every two sides are greater than the third one
 			System.out.println(a+ ", "+b+", "+c+": true");
 		else
 			System.out.println(a+ ", "+b+", "+c+": false");
