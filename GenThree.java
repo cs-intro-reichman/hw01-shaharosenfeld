@@ -4,9 +4,9 @@ public class GenThree {
 		int max,min = 0;
 		min = Integer.parseInt(args[0]);
 		max = Integer.parseInt(args[1]);
-        int firstR = ThreadLocalRandom.current().nextInt(min, max + 1);
-		int secR = ThreadLocalRandom.current().nextInt(min, max + 1);
-		int thirdR = ThreadLocalRandom.current().nextInt(min, max + 1);
+        int firstR = ThreadLocalRandom.current().nextInt(min, max);
+		int secR = ThreadLocalRandom.current().nextInt(min, max);
+		int thirdR = ThreadLocalRandom.current().nextInt(min, max);
 			System.out.println(firstR);
 			System.out.println(secR);
 			System.out.println(thirdR);
