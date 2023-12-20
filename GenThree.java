@@ -1,5 +1,5 @@
 import java.util.concurrent.ThreadLocalRandom;
-public class Gen3 {
+public class GenThree {
     public static void main(String[] args) {
 		int max,min = 0;
 		min = Integer.parseInt(args[0]);
